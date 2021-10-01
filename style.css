@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    background-image: url("./img/pexels-samson-katt-5256145.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+fieldset {
+    border: 2px solid #000;
+    width: 36vh;
+    height: 40vh;
+
+}
+
+h1 {
+    align-items: center;
+}
+
+span {
+    font-weight: 800;
+}
+
+legend {
+    color: #000;
+    border: 1px solid;
+    padding: 2px;
+    text-align: center;
+    background-color: #94B7D5;
+    border-radius: 2px;
+}
+
+input {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    font-weight: 800;
+    font-size: 15px;
+    width: 75%;
+}
+
+input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #BCA1D1
+}
+
+input:focus {
+    border-color: #fff;
+}
+
+
+select {
+    width: 50%;
+    font-weight: 800;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+option {
+    font-weight: 800;
+}
+
+textarea {
+    font-weight: 800;
+    margin: 4px;
+    background-color: transparent;
+}
+
+button {
+    padding: 2px 15px;
+    font-weight: 900;
+    font-size: 15px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+
+::placeholder {
+    color: #ccc;
+    font-weight: 800;
+}
+
+.general {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(49, 50, 78, 0.4);
+    padding: 15px;
+    /* border-radius: 15px; */
+    width: 36vh;
+    height: 40vh;
+    color: #000;
+}
+
+.inputs {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-weight: 800;
+    /* width: 93%; */
+}
+
+.main {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+}
+
+.container {
+    width: 42vh;
+    /* height: 52vh; */
+    padding: 2rem;
+    box-sizing: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    /* border-radius: 10px; */
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px
+}
