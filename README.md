@@ -1,4 +1,4 @@
-# Form of Jobs
+# Work form
 
 Simple form made with css html
 
